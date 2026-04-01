@@ -1,0 +1,223 @@
+<<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+
+<title>Chèo Hải Phòng - Nét Đặc Sắc Nghệ Thuật Dân Gian</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+font-family:'Be Vietnam Pro',sans-serif;
+background:#fdf6ec; /* nền kem dịu */
+color:#2c2c2c;
+line-height:1.8;
+}
+
+/* NAV */
+nav{
+position:fixed;
+width:100%;
+background:rgba(255,255,255,0.85);
+backdrop-filter:blur(10px);
+padding:15px;
+text-align:center;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+z-index:1000;
+}
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:#2c2c2c;
+font-weight:500;
+}
+nav a:hover{color:#b91c1c}
+
+/* HERO */
+header{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(135deg,#fff7ed,#fef3c7);
+}
+
+header h1{
+font-size:38px;
+color:#7f1d1d;
+position:relative;
+}
+
+/* underline đẹp */
+header h1::after{
+content:"";
+display:block;
+width:120px;
+height:4px;
+background:#f59e0b;
+margin:15px auto 0;
+border-radius:10px;
+}
+
+/* SECTION */
+section{
+padding:110px 20px;
+max-width:950px;
+margin:auto;
+border-bottom:1px solid #f1e4d4;
+}
+
+/* TITLE */
+.section-title{
+font-size:26px;
+margin-bottom:20px;
+color:#b91c1c;
+position:relative;
+}
+
+/* gạch nhỏ dưới title */
+.section-title::after{
+content:"";
+display:block;
+width:60px;
+height:3px;
+background:#f59e0b;
+margin-top:8px;
+}
+
+/* TEXT */
+p{
+margin-bottom:18px;
+font-size:17px;
+}
+
+/* QUOTE */
+.quote{
+font-style:italic;
+background:#fff7ed;
+padding:15px;
+border-left:4px solid #f59e0b;
+margin-bottom:20px;
+}
+
+/* FADE */
+.fade{
+opacity:0;
+transform:translateY(40px);
+transition:1s;
+}
+.show{
+opacity:1;
+transform:translateY(0);
+}
+/* SIGNATURE */
+.author-top{
+margin-top:15px;
+font-size:14px;
+opacity:0.7;
+letter-spacing:1px;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:40px 20px;
+background:#fff7ed;
+margin-top:50px;
+border-top:1px solid #f1e4d4;
+}
+
+footer b{
+color:#b91c1c;
+}
+
+.sub-foot{
+margin-top:10px;
+font-size:14px;
+opacity:0.7;
+font-style:italic;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#intro">Nguồn gốc</a>
+<a href="#music">Âm nhạc</a>
+<a href="#artist">Nghệ sĩ</a>
+<a href="#protect">Bảo tồn</a>
+</nav>
+
+<header>
+<h1>Chèo Hải Phòng – Nét Đặc Sắc Nghệ Thuật Dân Gian</h1>
+
+
+</header>
+
+<!-- INTRO -->
+<section id="intro" class="fade">
+<div class="section-title">Sự hình thành và phát triển của nghệ thuật chèo</div>
+
+<div class="quote">“Chèo không chỉ là nghệ thuật, mà còn là tiếng nói của đời sống người dân.”</div>
+
+<p>
+Nghệ thuật chèo là một loại hình sân khấu dân gian có lịch sử lâu đời, xuất hiện từ khoảng thế kỷ X và gắn liền với đời sống sinh hoạt của người dân vùng đồng bằng Bắc Bộ. Ban đầu, chèo được biểu diễn trong môi trường cung đình, tuy nhiên theo thời gian, loại hình này đã lan rộng ra dân gian và trở thành một phần không thể thiếu trong các hoạt động văn hóa cộng đồng. Tại Hải Phòng, chèo phát triển mạnh mẽ nhờ vào đời sống văn hóa phong phú của người dân, đặc biệt là trong các dịp lễ hội, đình làng và sinh hoạt tập thể. Không chỉ đơn thuần là một loại hình giải trí, chèo còn phản ánh chân thực đời sống, tâm tư và tình cảm của con người qua từng giai đoạn lịch sử. Trải qua nhiều biến động của xã hội, chèo Hải Phòng vẫn giữ được những giá trị cốt lõi, đồng thời có sự đổi mới để phù hợp với thời đại hiện nay, từ hình thức biểu diễn cho đến cách tiếp cận khán giả.
+</p>
+
+</section>
+
+<!-- MUSIC -->
+<section id="music" class="fade">
+<div class="section-title">Đặc điểm âm nhạc và giá trị nội dung trong chèo</div>
+
+<p>
+Âm nhạc là yếu tố quan trọng tạo nên sức hấp dẫn đặc trưng của nghệ thuật chèo, góp phần truyền tải nội dung và cảm xúc của mỗi vở diễn một cách rõ ràng và sâu sắc. Các nhạc cụ truyền thống như đàn nhị, đàn nguyệt, sáo và trống được sử dụng linh hoạt, tạo nên những giai điệu vừa mộc mạc, giản dị nhưng cũng rất giàu tính biểu cảm. Không giống như nhiều loại hình nghệ thuật khác, chèo có sự kết hợp chặt chẽ giữa âm nhạc, lời hát và diễn xuất, giúp người xem không chỉ nghe mà còn cảm nhận được câu chuyện một cách trọn vẹn. Nội dung của các vở chèo thường xoay quanh những vấn đề quen thuộc trong đời sống như tình yêu, gia đình, đạo đức và các mối quan hệ xã hội, từ đó truyền tải những thông điệp ý nghĩa về cách sống và cách ứng xử.
+</p>
+
+</section>
+
+<!-- ARTIST -->
+<section id="artist" class="fade">
+<div class="section-title">Vai trò của nghệ sĩ chèo trong việc gìn giữ truyền thống</div>
+
+<p>
+Nghệ sĩ chèo là những người đóng vai trò then chốt trong việc bảo tồn và phát triển loại hình nghệ thuật truyền thống này. Để trở thành một nghệ sĩ chèo, họ phải trải qua quá trình rèn luyện nghiêm túc và lâu dài, từ kỹ năng thanh nhạc, diễn xuất cho đến khả năng biểu đạt cảm xúc và hiểu biết về văn hóa dân gian. Tại Hải Phòng, nhiều nghệ sĩ đã dành cả cuộc đời để gắn bó với chèo, góp phần giữ gìn những giá trị truyền thống quý báu và truyền lại cho thế hệ trẻ thông qua các hoạt động giảng dạy và biểu diễn.
+</p>
+
+</section>
+
+<!-- PROTECT -->
+<section id="protect" class="fade">
+<div class="section-title">Giải pháp bảo tồn và phát huy nghệ thuật chèo</div>
+
+<p>
+Trong bối cảnh xã hội hiện đại, nghệ thuật chèo đang đứng trước nhiều thách thức khi phải cạnh tranh với các loại hình giải trí mới. Vì vậy, việc bảo tồn và phát huy chèo là vô cùng cần thiết. Một trong những giải pháp quan trọng là đưa chèo vào trường học, giúp thế hệ trẻ hiểu và trân trọng giá trị văn hóa truyền thống. Bên cạnh đó, việc tổ chức các hoạt động biểu diễn, lễ hội và ứng dụng công nghệ để quảng bá chèo cũng góp phần giúp loại hình nghệ thuật này tiếp cận gần hơn với công chúng hiện đại.
+</p>
+
+</section>
+
+<script>
+const fades=document.querySelectorAll('.fade');
+window.addEventListener('scroll',()=>{
+fades.forEach(el=>{
+if(el.getBoundingClientRect().top<window.innerHeight-100){
+el.classList.add('show');
+}
+});
+});
+</script>
+
+<footer>
+    <p>© 2026 | Thực hiện bởi <b>Lê An 9D aka Harry</b></p>
+    <p class="sub-foot">“Giữ gìn văn hóa không phải là trách nhiệm của riêng ai, mà là của tất cả chúng ta.”</p>
+</footer>
+</body>
+</html>
